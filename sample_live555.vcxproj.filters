@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{4835f2cf-2832-4bf0-ae95-6e31bcfdaa25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librtsp">
+      <UniqueIdentifier>{4559268b-9671-44da-bbc6-e7e930ab3aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librtsp\BasicUsageEnvironment">
+      <UniqueIdentifier>{ac52ab26-d3d3-4af8-879f-e72b7496b97f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librtsp\groupsock">
+      <UniqueIdentifier>{20aa49ee-1b94-4d13-94e3-4498901c5988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librtsp\liveMedia">
+      <UniqueIdentifier>{83c27fc8-c9b4-408c-96a6-7ebf221a63fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="librtsp\UsageEnvironment">
+      <UniqueIdentifier>{452faeb2-3c7c-4bd7-aae5-e010e4e36409}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\sample_live555.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sample_live555.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sample_live555.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sample_live555Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\GMError.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\HYDefine.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\HyperLink.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\OSThread.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\ReadSPS.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\Socket.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\SocketUtils.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\StrPtrLen.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\tinyxml.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\UDPSocket.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="common\UtilTool.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="librtsp\liveMedia\rtcp_from_spec.h">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClInclude>
+    <ClInclude Include="myRTSPClient.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="common\AmfByteStream.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="RTSPThread.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sample_live555.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sample_live555Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common\HyperLink.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\OSThread.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\ReadSPS.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\Socket.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\SocketUtils.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\StrPtrLen.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tinyxml.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tinyxmlerror.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\tinyxmlparser.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\UDPSocket.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="common\UtilTool.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\BasicUsageEnvironment\BasicHashTable.cpp">
+      <Filter>librtsp\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\BasicUsageEnvironment\BasicTaskScheduler.cpp">
+      <Filter>librtsp\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\BasicUsageEnvironment\BasicTaskScheduler0.cpp">
+      <Filter>librtsp\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\BasicUsageEnvironment\BasicUsageEnvironment.cpp">
+      <Filter>librtsp\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\BasicUsageEnvironment\BasicUsageEnvironment0.cpp">
+      <Filter>librtsp\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\BasicUsageEnvironment\DelayQueue.cpp">
+      <Filter>librtsp\BasicUsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\groupsock\GroupEId.cpp">
+      <Filter>librtsp\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\groupsock\Groupsock.cpp">
+      <Filter>librtsp\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\groupsock\GroupsockHelper.cpp">
+      <Filter>librtsp\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\groupsock\inet.c">
+      <Filter>librtsp\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\groupsock\IOHandlers.cpp">
+      <Filter>librtsp\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\groupsock\NetAddress.cpp">
+      <Filter>librtsp\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\groupsock\NetInterface.cpp">
+      <Filter>librtsp\groupsock</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AC3AudioFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AC3AudioRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AC3AudioRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AC3AudioStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\ADTSAudioFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\ADTSAudioFileSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AMRAudioFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AMRAudioFileSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AMRAudioFileSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AMRAudioRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AMRAudioRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AMRAudioSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AudioInputDevice.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AudioRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\AVIFileSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\Base64.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\BasicUDPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\BasicUDPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\BitVector.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\ByteStreamFileSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\ByteStreamMemoryBufferSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\ByteStreamMultiFileSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\DeviceSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\DigestAuthentication.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\DVVideoFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\DVVideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\DVVideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\DVVideoStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\EBMLNumber.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\FileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\FileSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\FramedFileSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\FramedFilter.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\FramedSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\GenericMediaServer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\GSMAudioRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H261VideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H263plusVideoFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H263plusVideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H263plusVideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H263plusVideoStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H263plusVideoStreamParser.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264or5VideoFileSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264or5VideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264or5VideoStreamDiscreteFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264or5VideoStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264VideoFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264VideoFileSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264VideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264VideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264VideoStreamDiscreteFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H264VideoStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H265VideoFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H265VideoFileSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H265VideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H265VideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H265VideoStreamDiscreteFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\H265VideoStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\InputFile.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\JPEGVideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\JPEGVideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\JPEGVideoSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\Locale.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MatroskaDemuxedTrack.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MatroskaFile.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MatroskaFileParser.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MatroskaFileServerDemux.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MatroskaFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\Media.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MediaSession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MediaSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MediaSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3ADU.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3ADUdescriptor.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3ADUinterleaving.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3ADURTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3ADURTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3ADUTranscoder.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3AudioFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3AudioMatroskaFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3FileSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3Internals.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3InternalsHuffman.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3InternalsHuffmanTable.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3StreamState.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MP3Transcoder.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2AudioRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2AudioRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2AudioStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2Demux.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2DemuxedElementaryStream.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2DemuxedServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2FileServerDemux.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2VideoFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2VideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2VideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2VideoStreamDiscreteFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG1or2VideoStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2IndexFromTransportStream.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2TransportFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2TransportStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2TransportStreamFromESSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2TransportStreamFromPESSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2TransportStreamIndexFile.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2TransportStreamMultiplexor.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2TransportStreamTrickModeFilter.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG2TransportUDPServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4ESVideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4ESVideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4GenericRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4GenericRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4LATMAudioRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4LATMAudioRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4VideoFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4VideoStreamDiscreteFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEG4VideoStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEGVideoStreamFramer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MPEGVideoStreamParser.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MultiFramedRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\MultiFramedRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\OggDemuxedTrack.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\OggFile.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\OggFileParser.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\OggFileServerDemux.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\OggFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\OggFileSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\OnDemandServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\ourMD5.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\OutputFile.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\PassiveServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\ProxyServerMediaSession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\QCELPAudioRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\QuickTimeFileSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\QuickTimeGenericRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTCP.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\rtcp_from_spec.c">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTPInterface.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTSPClient.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTSPCommon.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTSPRegisterSender.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTSPServer.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\RTSPServerSupportingHTTPStreaming.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\ServerMediaSession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\SimpleRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\SimpleRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\SIPClient.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\StreamParser.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\StreamReplicator.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\T140TextRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\TCPStreamSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\TextRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\TheoraVideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\TheoraVideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\uLawAudioFilter.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\VideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\VorbisAudioRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\VorbisAudioRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\VP8VideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\VP8VideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\VP9VideoRTPSink.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\VP9VideoRTPSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\WAVAudioFileServerMediaSubsession.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\liveMedia\WAVAudioFileSource.cpp">
+      <Filter>librtsp\liveMedia</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\UsageEnvironment\HashTable.cpp">
+      <Filter>librtsp\UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\UsageEnvironment\strDup.cpp">
+      <Filter>librtsp\UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="librtsp\UsageEnvironment\UsageEnvironment.cpp">
+      <Filter>librtsp\UsageEnvironment</Filter>
+    </ClCompile>
+    <ClCompile Include="myRTSPClient.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RTSPThread.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="sample_live555.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
